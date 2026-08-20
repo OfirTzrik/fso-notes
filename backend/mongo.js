@@ -19,7 +19,7 @@ const noteSchema = new mongoose.Schema({
 const Note = mongoose.model('Note', noteSchema)
 
 const note = new Note({
-  content: 'This is a test note and it is not important at all (or is it?)',
+  content: 'HTML is easy',
   important: true,
 })
 
